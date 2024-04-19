@@ -1,0 +1,54 @@
+.hero {
+  display: flex;
+  height: 100vh;
+  background-image: url("../assets/Banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.hero-lift {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  line-height: 1.1;
+  padding-left: 400px;
+}
+.hero-lift h2 {
+  display: flex;
+  font-size: 27px;
+  font-weight: 900;
+  color: #e3652c;
+}
+.hero-lift p {
+  display: flex;
+  font-size: 27px;
+  font-weight: 400;
+  color: rgb(53, 53, 53);
+  text-transform: uppercase;
+}
+.div-button {
+  display: flex;
+}
+.div-button button {
+  padding: 10px 55px;
+  background-color: #009e3e;
+  border: 1px solid #009e3e;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: ease all 0.3s;
+}
+.div-button button:hover {
+  background-color: transparent;
+  color: #009e3e;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero-lift {
+    padding-left: 30px;
+  }
+}

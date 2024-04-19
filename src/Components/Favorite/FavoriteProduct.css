@@ -1,0 +1,8 @@
+.main-fav {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    min-height: 40vh;
+    justify-content: center;
+}

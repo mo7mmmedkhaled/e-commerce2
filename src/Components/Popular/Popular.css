@@ -1,0 +1,17 @@
+.popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    box-shadow: 0 0 13px 0px #0000002b;
+}
+.popular h1{
+  margin-bottom: 30px;
+  border-bottom: 4px solid red;
+}
+.popular-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
